@@ -1,0 +1,57 @@
+main {
+  background-color: white;
+  height: 100%;
+  border-radius: 30px 30px 0 0;
+  padding: 30px 15px;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  gap: 10px;
+}
+
+#button-area {
+  background-color: #1a1a1a05;
+  border: 1px solid #1a1a1a09;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  border-radius: 16px;
+  gap: 16px;
+
+  #button-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    button {
+      background-color: #f34541;
+      padding: 5px 10px;
+      border: none;
+      border-radius: 8px;
+
+      color: white;
+      cursor: pointer;
+    }
+
+    label {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 4px;
+    }
+  }
+
+  #text-wrapper {
+    p {
+      width: 250px;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      text-align: end;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+<header>
+  <time [title]="today" datetime="2021-12-20">
+    {{ today.toLocaleDateString("en-us", { day: "2-digit", month: "short" }) }}
+  </time>
+  <app-add-task [taskList]="taskList" />
+</header>

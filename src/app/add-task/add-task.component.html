@@ -1,0 +1,14 @@
+<section>
+  <div [ngClass]="{ 'hide-task': mustAddTask }" id="tasks-summary">
+    <p>Today</p>
+    <span>{{ taskList.length }} tasks</span>
+  </div>
+  <input
+    placeholder="Type task name"
+    [ngClass]="{ 'show-task': mustAddTask, 'hide-task': !mustAddTask }"
+    [(ngModel)]="task"
+  />
+  <button (click)="handleClick()">
+    {{ mustAddTask ? "Submit" : "Add New" }}
+  </button>
+</section>

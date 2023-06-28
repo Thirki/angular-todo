@@ -1,0 +1,44 @@
+section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#tasks-summary {
+  p {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  span {
+    font-weight: 300;
+    font-size: 16px;
+  }
+}
+
+input {
+  padding: 15px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+  color: #1a1a1a;
+  background-color: white;
+  font-size: 16px;
+}
+
+.hide-task {
+  opacity: 0;
+  display: none;
+}
+
+button {
+  padding: 15px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 0;
+  font-weight: bold;
+  color: #4043C9;
+  background-color: white;
+  font-size: 16px;
+}
